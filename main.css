@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+}
+
+
+/* navbar */
+
+nav#navbar {
+
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav#navbar header {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+nav#navbar a {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+
+/*
+nav#navbar {
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    
+}
+
+nav#navbar header {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+nav#navbar ul li {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+
+nav#navbar ul li a {
+    color: black;
+}
+*/
+/* main */
+
+#main-doc {
+    margin-left: 20rem;
+ 
+}
+
+/* sections */
+
+.main-section {
+
+    margin: 2rem 1rem;
+}
+
+section header {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+section p {
+    line-height: 1.2;
+    margin: 1rem 0;
+}
+
+section ul {
+    margin-left: 4rem;
+}
+
+section ul li {
+    margin: 1.5rem 0;
+}
+
+section code {
+    background: #ddd;
+    padding: 1rem;
+    display: block;
+    margin: 0 auto;
+}
